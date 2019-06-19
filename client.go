@@ -428,7 +428,7 @@ func (client *client) RefreshMetadata(topics ...string) error {
 
 	// Prior to 0.8.2, Kafka will throw exceptions on an empty topic and not return a proper
 	// error. This handles the case by returning an error instead of sending it
-	// off to Kafka. See: https://github.com/Shopify/sarama/pull/38#issuecomment-26362310
+	// off to Kafka. See: https://github.com/Anth80/sarama/pull/38#issuecomment-26362310
 	for _, topic := range topics {
 		if len(topic) == 0 {
 			return ErrInvalidTopic // this is the error that 0.8.2 and later correctly return

@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	toxiproxy "github.com/Shopify/toxiproxy/client"
+	toxiproxy "github.com/Anth80/toxiproxy/client"
 	"github.com/rcrowley/go-metrics"
 )
 

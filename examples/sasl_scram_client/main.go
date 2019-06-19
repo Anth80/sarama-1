@@ -9,7 +9,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Shopify/sarama"
+	"github.com/Anth80/sarama"
 )
 
 func init() {
