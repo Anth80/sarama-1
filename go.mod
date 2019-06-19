@@ -1,4 +1,4 @@
-module github.com/Shopify/sarama
+module github.com/Anth80/sarama
 
 require (
 	github.com/DataDog/zstd v1.3.6-0.20190409195224-796139022798
