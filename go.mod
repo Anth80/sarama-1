@@ -1,4 +1,4 @@
-module github.com/Anth80/sarama
+module github.com/Anth80/sarama-1
 
 require (
 	github.com/DataDog/zstd v1.3.6-0.20190409195224-796139022798
